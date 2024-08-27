@@ -1,5 +1,5 @@
+<?php namespace j2digital; ?>
+
 <nav class="header-cta">
-  <ul>
-    <li><a href="/contact">Get In Touch</a></li>
-  </ul>
+  <ul><?php header_cta_menu(); ?></ul>
 </nav>

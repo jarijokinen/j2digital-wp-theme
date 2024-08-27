@@ -1,5 +1,5 @@
+<?php namespace <%= slug %>; ?>
+
 <nav class="header-nav">
-  <ul>
-    <li><a href="/">Home</a></li>
-  </ul>
+  <ul><?php header_nav_menu(); ?></ul>
 </nav>
