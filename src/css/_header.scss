@@ -1,0 +1,24 @@
+.header {
+  height: 80px;
+  user-select: none;
+}
+.header > .container {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.header a {
+  color: #000;
+  text-decoration: none;
+}
+.header ul {
+  display: flex;
+}
+.header li {
+  display: block;
+}
+.header-logo {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
