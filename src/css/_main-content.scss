@@ -1,0 +1,13 @@
+.main-content > * {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 30px;
+  width: 100%;
+}
+.main-content > .alignfull {
+  max-width: 100%;
+}
+.main-content > .alignwide {
+  max-width: 1500px;
+}

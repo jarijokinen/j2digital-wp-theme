@@ -1,7 +1,7 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
-the_content();
-get_footer();
+<main class="main-content">
+  <?php the_content(); ?>
+</main>
 
-?>
+<?php get_footer(); ?>
