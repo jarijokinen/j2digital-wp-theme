@@ -1,0 +1,21 @@
+.footer {
+  font-size: 1.4rem;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.footer li {
+  display: block;
+  line-height: 1.35;
+}
+.footer a {
+  color: #000;
+}
+.footer-copyright {
+  line-height: 1.35;
+  margin-bottom: 5px;
+}
