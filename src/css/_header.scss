@@ -5,14 +5,8 @@
 .header > .container {
   align-items: center;
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: space-between;
-}
-.header a {
-  color: #000;
-  font-size: 1.4rem;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 .header ul {
   display: flex;
@@ -22,8 +16,64 @@
   display: block;
 }
 .header-logo {
+  color: #000;
   font-size: 2.2rem;
   font-weight: 600;
+  text-decoration: none;
+}
+.header-nav a, .header-cta a {
+  color: #000;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-nav {
+  order: 2;
+  @media (min-width: 768px) {
+    order: 0;
+  }
+}
+.header-nav ul {
+  display: none;
+  z-index: 9999;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+.header-nav-toggle {
+  background: $svg-nav-open;
+  height: 30px;
+  position: relative;
+  width: 30px;
+  z-index: 9999;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-nav-on {
+    .header-nav-toggle {
+      background: $svg-nav-close;
+    }
+    ul {
+      align-items: center;
+      background: #fff;
+      color: 000;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
+.header-cta {
+  @media (max-width: 767px) {
+    margin-left: auto;
+  }
 }
 .header-cta a {
   background: #333;

@@ -1,0 +1,1 @@
+!function(){"use strict";var e=()=>{const e=document.querySelector("body"),t=e.querySelector(".header-nav"),n=document.createElement("div");n.classList.add("header-nav-toggle"),n.onclick=()=>{t.classList.toggle("header-nav-on"),e.classList.toggle("noscroll")},t.appendChild(n)};document.addEventListener("DOMContentLoaded",(()=>{e()}))}();
