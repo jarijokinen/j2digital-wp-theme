@@ -10,7 +10,9 @@
 }
 .header a {
   color: #000;
+  font-size: 1.4rem;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .header ul {
   display: flex;
@@ -22,4 +24,11 @@
 .header-logo {
   font-size: 2.2rem;
   font-weight: 600;
+}
+.header-cta a {
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 20px;
 }
