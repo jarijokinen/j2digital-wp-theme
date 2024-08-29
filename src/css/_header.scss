@@ -27,6 +27,9 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+.header-nav .active a {
+  font-weight: 600;
+}
 .header-nav {
   order: 2;
   @media (min-width: 768px) {
